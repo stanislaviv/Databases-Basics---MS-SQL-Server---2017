@@ -1,9 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Lab">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="STANISLAV-PC\SQLSERVER:STANISLAV-PC\Stanislav">
+          <Created>2017-09-20T21:03:11.1822305+03:00</Created>
+          <Type>SQL</Type>
+          <Server>STANISLAV-PC\SQLSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Bank</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1_CreateTable_Clients.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1_CreateTable_Clients.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_Create_AccountTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_Create_AccountTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_Create_Accounts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_Create_Accounts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_InsertData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4_InsertData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5_Create_View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5_Create_View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6_Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6_Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7_AddClientProcedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7_AddClientProcedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8_Deposit_Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8_Deposit_Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9_Withdraw.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9_Withdraw.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z10_Trigger_Transactions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z10_Trigger_Transactions.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
