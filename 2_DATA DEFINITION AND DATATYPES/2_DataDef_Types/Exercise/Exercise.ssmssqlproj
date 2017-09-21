@@ -43,6 +43,102 @@
           <AssociatedConnUserName />
           <FullPath>4.InsertRecords.sql</FullPath>
         </FileNode>
+        <FileNode Name="5-6Truncate,del.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5-6Truncate,del.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7.CreatePeople.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7.CreatePeople.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8.CreateUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8.CreateUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9-12.AlterTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9-12.AlterTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z13.MoviesDatabase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z13.MoviesDatabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z14.CarRentalDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z14.CarRentalDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z15.HotelDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z15.HotelDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z16.SoftUniDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z16.SoftUniDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z17.BackUp_and_Restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z17.BackUp_and_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z18.BasicInsert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z18.BasicInsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z19.BasicSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z19.BasicSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z20.Select-And-Order.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z20.Select-And-Order.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z21.Select_Some_Fields.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z21.Select_Some_Fields.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z22.Increase_Salary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z22.Increase_Salary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z23.DecreaseTaxRates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z23.DecreaseTaxRates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z24.DeleteAllRecords.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z24.DeleteAllRecords.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
