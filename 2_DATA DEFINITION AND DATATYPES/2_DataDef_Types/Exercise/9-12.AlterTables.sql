@@ -12,6 +12,7 @@ ADD CONSTRAINT CHK_PassLen_5symbols CHECK (LEN(Password) >= 5)
 --task 11
 ALTER TABLE Users
 ADD CONSTRAINT DF_CurrentTime DEFAULT GETDATE() for LastLoginTime
+--ADD DEFAULT GETDATE() for LastLoginTime
 
 --task 12 - remove double constraint
 ALTER TABLE Users
