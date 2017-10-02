@@ -4,12 +4,12 @@
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="STANISLAV-PC\SQLSERVER:STANISLAV-PC\Stanislav">
-          <Created>2017-09-28T20:22:38.1688031+03:00</Created>
+          <Created>2017-10-02T22:47:03.9519933+03:00</Created>
           <Type>SQL</Type>
           <Server>STANISLAV-PC\SQLSERVER</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>Orders</InitialDB>
+          <InitialDB>Gringotts</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,107 +19,137 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="1.AllEmplbyFirstName.sql">
+        <FileNode Name="1.RecordCount.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>1.AllEmplbyFirstName.sql</FullPath>
+          <FullPath>1.RecordCount.sql</FullPath>
         </FileNode>
-        <FileNode Name="2.AllEmplByLastName.sql">
+        <FileNode Name="2.LongestMagicWand.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>2.AllEmplByLastName.sql</FullPath>
+          <FullPath>2.LongestMagicWand.sql</FullPath>
         </FileNode>
-        <FileNode Name="3.FirstNAme - dept and hireyear.sql">
+        <FileNode Name="3.LongestWand - Deposit Group.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>3.FirstNAme - dept and hireyear.sql</FullPath>
+          <FullPath>3.LongestWand - Deposit Group.sql</FullPath>
         </FileNode>
-        <FileNode Name="4.AllExceptEngineers.sql">
+        <FileNode Name="4.SmallestDepGroupPerMagicWand Size.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>4.AllExceptEngineers.sql</FullPath>
+          <FullPath>4.SmallestDepGroupPerMagicWand Size.sql</FullPath>
         </FileNode>
-        <FileNode Name="5.TownsWithNameLenght.sql">
+        <FileNode Name="4.SmallestDepGroupPerMagicWand SizeV2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>5.TownsWithNameLenght.sql</FullPath>
+          <FullPath>4.SmallestDepGroupPerMagicWand SizeV2.sql</FullPath>
         </FileNode>
-        <FileNode Name="6.TownsStartingWith.sql">
+        <FileNode Name="5.DepositsSum.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>6.TownsStartingWith.sql</FullPath>
+          <FullPath>5.DepositsSum.sql</FullPath>
         </FileNode>
-        <FileNode Name="7.TownsDoNotStartWith.sql">
+        <FileNode Name="6.DepositSumOlivander.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>7.TownsDoNotStartWith.sql</FullPath>
+          <FullPath>6.DepositSumOlivander.sql</FullPath>
         </FileNode>
-        <FileNode Name="8.ViewEmplAfter2000th.sql">
+        <FileNode Name="7.DepositsFilter.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>8.ViewEmplAfter2000th.sql</FullPath>
+          <FullPath>7.DepositsFilter.sql</FullPath>
         </FileNode>
-        <FileNode Name="9.LenghtLastName.sql">
+        <FileNode Name="8.DepositCharge.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>9.LenghtLastName.sql</FullPath>
+          <FullPath>8.DepositCharge.sql</FullPath>
         </FileNode>
-        <FileNode Name="z10.CountriesHodlingA.sql">
+        <FileNode Name="9.AgeGroups.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z10.CountriesHodlingA.sql</FullPath>
+          <FullPath>9.AgeGroups.sql</FullPath>
         </FileNode>
-        <FileNode Name="z11.MixPeakRivers.sql">
+        <FileNode Name="9.AgeGroupsV2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z11.MixPeakRivers.sql</FullPath>
+          <FullPath>9.AgeGroupsV2.sql</FullPath>
         </FileNode>
-        <FileNode Name="z12.GamesFrom2011-2012.sql">
+        <FileNode Name="z10.FirstLetter.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z12.GamesFrom2011-2012.sql</FullPath>
+          <FullPath>z10.FirstLetter.sql</FullPath>
         </FileNode>
-        <FileNode Name="z13.UserEmailProviders.sql">
+        <FileNode Name="z11.AverageInterest.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z13.UserEmailProviders.sql</FullPath>
+          <FullPath>z11.AverageInterest.sql</FullPath>
         </FileNode>
-        <FileNode Name="z14.IPUserPattern.sql">
+        <FileNode Name="z12.Rich-PoorWizard.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z14.IPUserPattern.sql</FullPath>
+          <FullPath>z12.Rich-PoorWizard.sql</FullPath>
         </FileNode>
-        <FileNode Name="z15.AllGamesWithDuration.sql">
+        <FileNode Name="z12.Rich-PoorWizardV2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z15.AllGamesWithDuration.sql</FullPath>
+          <FullPath>z12.Rich-PoorWizardV2.sql</FullPath>
         </FileNode>
-        <FileNode Name="z16.Orders.sql">
+        <FileNode Name="z13.DeptsTotalSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z16.Orders.sql</FullPath>
+          <FullPath>z13.DeptsTotalSalaries.sql</FullPath>
         </FileNode>
-        <FileNode Name="z17.PeopleTable.sql">
+        <FileNode Name="z14.MinimumSalaries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>z17.PeopleTable.sql</FullPath>
+          <FullPath>z14.MinimumSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z15.EmployeesAverageSalaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z15.EmployeesAverageSalaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z16.EmployeesMaxSlaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z16.EmployeesMaxSlaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z17.CountEmpNoSalary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z17.CountEmpNoSalary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z18.3rdHighestSalary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z18.3rdHighestSalary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z19.SalaryChallenge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z19.SalaryChallenge.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
