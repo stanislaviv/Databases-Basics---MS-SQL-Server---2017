@@ -115,6 +115,12 @@
           <AssociatedConnUserName />
           <FullPath>z15.ContinentsAndCurrenciesV2.sql</FullPath>
         </FileNode>
+        <FileNode Name="z15.ContinentsAndCurrenciesV3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z15.ContinentsAndCurrenciesV3.sql</FullPath>
+        </FileNode>
         <FileNode Name="z16.CountiresWithoutMountians.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
@@ -138,6 +144,12 @@
           <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>z18.Highest Peak Name and Elevation by CountryV2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z18.Highest Peak Name and Elevation by CountryV3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z18.Highest Peak Name and Elevation by CountryV3.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
