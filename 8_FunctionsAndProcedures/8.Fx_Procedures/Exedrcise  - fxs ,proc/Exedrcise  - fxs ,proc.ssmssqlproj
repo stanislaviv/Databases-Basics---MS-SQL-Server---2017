@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Exedrcise  - fxs ,proc">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="STANISLAV-PC\SQLSERVER:STANISLAV-PC\Stanislav">
+          <Created>2017-10-11T21:27:46.32163+03:00</Created>
+          <Type>SQL</Type>
+          <Server>STANISLAV-PC\SQLSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Demo</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1.SalaryMoreThan35000.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.SalaryMoreThan35000.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.SalaryAboveNUmber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.SalaryAboveNUmber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.Town Names Starting With.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3.Town Names Starting With.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4.EmployeesFromTown.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4.EmployeesFromTown.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.Funct - SalaryLevel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.Funct - SalaryLevel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6.EmployeesBySalaryLevel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STANISLAV-PC\SQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STANISLAV-PC\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6.EmployeesBySalaryLevel.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
