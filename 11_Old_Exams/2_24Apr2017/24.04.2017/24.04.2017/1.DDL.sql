@@ -25,7 +25,7 @@ CREATE TABLE Jobs (
 												Status = 'In Progress' OR
 												Status = 'Finished'),
 	ClientId INT FOREIGN KEY REFERENCES Clients(ClientId),
-	MechanicID INT FOREIGN KEY REFERENCES Mechanics(MechanicId),
+	MechanicId INT FOREIGN KEY REFERENCES Mechanics(MechanicId),
 	IssueDate DATE,
 	FinishDate DATE
 )
@@ -52,16 +52,17 @@ CREATE TABLE Parts (
 	StockQty INT DEFAULT 0, CHECK (StockQty >=0)
 )
 
-CREATE TABLE OrderParts (
-	OrderId INT FOREIGN KEY REFERENCES Orders(OrderId),
-	PartId INT FOREIGN KEY REFERENCES Parts(PartId),
-	Quantity INT DEFAULT 1, CHECK (Quantity >0),
-	CONSTRAINT PK_OrderId_PartId PRIMARY KEY (OrderId,PartId)
-)
-
 CREATE TABLE PartsNeeded (
 	JobId INT FOREIGN KEY REFERENCES Jobs(JobId),
 	PartId INT FOREIGN KEY REFERENCES Parts(PartId),
-	Quantity INT DEFAULT 1, CHECK (Quantity >0),
+	Quantity INT DEFAULT 1, CHECK (Quantity >=0),
 	CONSTRAINT PK_JobId_PartId PRIMARY KEY (JobId,PartId)
+)
+
+
+CREATE TABLE OrderParts (
+	OrderId INT FOREIGN KEY REFERENCES Orders(OrderId),
+	PartId INT FOREIGN KEY REFERENCES Parts(PartId),
+	Quantity INT DEFAULT 1, CHECK (Quantity >=0),
+	CONSTRAINT PK_OrderId_PartId PRIMARY KEY (OrderId,PartId)
 )
